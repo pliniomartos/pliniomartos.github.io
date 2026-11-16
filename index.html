@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plinio Hernandez Martos — Software Engineering Student · Edinburgh</title>
+  <meta name="description" content="Portfolio of Plinio Hernandez Martos — BEng Software Engineering student (Year 3) at Edinburgh Napier University and HND Software Development (Grade A) graduate. Open to junior developer, placement and IT support roles in Edinburgh.">
+  <meta name="author" content="Plinio Hernandez Martos">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f8fa">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0a0f1a">
+  <link rel="canonical" href="https://pliniomartos.dev/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pliniomartos.dev/">
+  <meta property="og:title" content="Plinio Hernandez Martos — Software Engineering Student · Edinburgh">
+  <meta property="og:description" content="Full-stack projects, agile placement experience and computing qualifications in Edinburgh. Open to junior developer, placement and IT support roles.">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Plinio Hernandez Martos — Software Engineering Student · Edinburgh">
+  <meta name="twitter:description" content="Full-stack projects, agile placement experience and computing qualifications in Edinburgh.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <script>
+    (function () {
+      document.documentElement.classList.add("js");
+      try {
+        var t = localStorage.getItem("theme");
+        if (t === "light" || t === "dark") {
+          document.documentElement.setAttribute("data-theme", t);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Plinio Hernandez Martos",
+      "url": "https://pliniomartos.dev/",
+      "email": "mailto:pliniohernandezmartos@gmail.com",
+      "jobTitle": "Software Engineering Student",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Edinburgh",
+        "addressCountry": "GB"
+      },
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Edinburgh Napier University"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Edinburgh College"
+      },
+      "sameAs": [
+        "https://github.com/pliniomartos",
+        "https://linkedin.com/in/pliniomartos"
+      ]
+    }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Plinio Martos home">
+        <span class="logo-mark" aria-hidden="true">PM</span>
+        <span>Plinio Martos</span>
+      </a>
+      <div class="header-actions">
+        <nav class="nav" id="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+          <a class="nav-cv" href="assets/Plinio_Hernandez_Martos_CV.pdf" download>CV</a>
+        </nav>
+        <button class="icon-btn theme-toggle" type="button" aria-label="Switch colour theme">
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+          </svg>
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>
+          </svg>
+        </button>
+        <button class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+          <svg class="icon-open" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16"/>
+          </svg>
+          <svg class="icon-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M6 6l12 12M18 6l-12 12"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="status-pill">
+            <span class="status-dot" aria-hidden="true"></span>
+            Edinburgh · Open to junior dev, placement &amp; IT support roles
+          </p>
+          <h1>Plinio Hernandez Martos</h1>
+          <p class="hero-role">BEng Software Engineering (Year 3) · Full-Stack Developer</p>
+          <p class="hero-lead">
+            Building dependable web and desktop applications with PHP, MySQL, JavaScript, Laravel and C# —
+            backed by a Grade&nbsp;A HND in Software Development, agile client placement code and 16 years of
+            customer-facing leadership.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn btn-secondary" href="assets/Plinio_Hernandez_Martos_CV.pdf" download>Download CV</a>
+            <a class="btn btn-secondary" href="#contact">Get in touch</a>
+          </div>
+          <ul class="hero-facts" aria-label="Key details">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              Edinburgh &amp; Lothians (on-site, hybrid or remote)
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                <path d="m9 11 3 3L22 4"/>
+              </svg>
+              UK right to work, no restrictions
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10Z"/>
+              </svg>
+              English · Portuguese · Spanish
+            </li>
+          </ul>
+        </div>
+
+        <figure class="profile-card" aria-label="Candidate summary">
+          <div class="profile-card-bar" aria-hidden="true">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="file">profile.json</span>
+          </div>
+          <pre><code>{
+  <span class="k">"name"</span>: <span class="s">"Plinio Hernandez Martos"</span>,
+  <span class="k">"location"</span>: <span class="s">"Edinburgh, Scotland"</span>,
+  <span class="k">"degree"</span>: <span class="s">"BEng (Hons) Software Engineering"</span>,
+  <span class="k">"stage"</span>: <span class="s">"Year 3 (direct entry Year 2)"</span>,
+  <span class="k">"hnd"</span>: <span class="s">"Software Development — Grade A"</span>,
+  <span class="k">"stack"</span>: [
+    <span class="s">"PHP"</span>, <span class="s">"MySQL"</span>, <span class="s">"JS"</span>,
+    <span class="s">"Laravel"</span>, <span class="s">"C#"</span>, <span class="s">"Python"</span>
+  ],
+  <span class="k">"seeking"</span>: [
+    <span class="s">"Junior Dev"</span>, <span class="s">"Placement"</span>,
+    <span class="s">"IT Support"</span>
+  ],
+  <span class="k">"rightToWorkUK"</span>: <span class="b">true</span>
+}</code></pre>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Background</p>
+          <h2 id="about-heading">About</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am a Software Engineering student at Edinburgh Napier University — currently in Year&nbsp;3 after
+              direct entry into Year&nbsp;2 — with a completed HND in Software Development (Grade&nbsp;A).
+              I build secure full-stack web applications with PHP, MySQL and JavaScript, and I delivered
+              production code in a five-person agile team for a real client during my placement.
+            </p>
+            <p>
+              Before moving into computing I spent 16 years in client-facing sales, hospitality management and
+              team leadership. That background means clear communication with non-technical stakeholders, calm
+              troubleshooting under pressure and a reliable, fast-learning approach — strengths I bring into
+              software development and technical support alike.
+            </p>
+            <p>
+              I am seeking a junior software developer, graduate, placement/internship or IT support role with
+              a development pathway — on-site in Edinburgh and the Lothians, hybrid or remote, and open to
+              relocating within the UK.
+            </p>
+          </div>
+          <aside class="about-card" aria-label="At a glance">
+            <h3>At a glance</h3>
+            <dl>
+              <div>
+                <dt>Currently</dt>
+                <dd>
+                  <strong>BEng (Hons) Software Engineering</strong>
+                  <span class="sub">Edinburgh Napier University · Currently in Year&nbsp;3 (direct entry to Year&nbsp;2 · Sep&nbsp;2025 – expected Jun&nbsp;2028)</span>
+                </dd>
+              </div>
+              <div>
+                <dt>HND Completed</dt>
+                <dd>
+                  <strong>HND Software Development — Grade&nbsp;A</strong>
+                  <span class="sub">Edinburgh College · 2024–2026 (final semester completed alongside BEng Year&nbsp;2)</span>
+                </dd>
+              </div>
+              <div>
+                <dt>Earlier study</dt>
+                <dd>
+                  HNC Software Development (2023–2024, Grade&nbsp;A) · NPA Software Development (SCQF Level&nbsp;6) · Bachelor’s in Communication, Advertising &amp; Marketing (Brazil, UK NARIC verified)
+                </dd>
+              </div>
+              <div>
+                <dt>Languages</dt>
+                <dd>English (fluent) · Portuguese (native) · Spanish (fluent)</dd>
+              </div>
+              <div>
+                <dt>Right to work</dt>
+                <dd>UK, no restrictions</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Selected work</p>
+          <h2 id="projects-heading">Featured projects</h2>
+          <p>
+            Full-stack web, desktop and machine learning work from college and university study.
+            EC Cinema is public on GitHub; other coursework repositories stay private and are available on request.
+          </p>
+        </div>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="shot shot--energy" role="img" aria-label="Sustain Energy web application preview — screenshot coming soon">
+              <div class="shot-bar" aria-hidden="true">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                <span class="shot-url">sustain-energy · certification-app</span>
+              </div>
+              <div class="shot-body" aria-hidden="true">
+                <div class="shot-wire"><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="shot-label">
+                  <span class="shot-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+                      <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+                    </svg>
+                  </span>
+                  <span class="shot-text">
+                    <span class="shot-name">Sustain Energy</span>
+                    <span class="shot-note">Screenshot coming soon</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-meta">HND Graded Unit · Grade A</p>
+              <h3><a href="projects/sustain-energy.html">Sustain Energy</a></h3>
+              <p>Mobile-first web application for sustainability certification, with automated certificate generation, LinkedIn sharing and an admin dashboard.</p>
+              <ul class="tags" aria-label="Tech stack">
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+              </ul>
+              <div class="project-footer">
+                <p class="code-status">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                  </svg>
+                  <a href="mailto:pliniohernandezmartos@gmail.com?subject=Code%20request%3A%20Sustain%20Energy">Code available on request</a>
+                </p>
+                <a class="btn btn-primary btn-sm" href="projects/sustain-energy.html">View project</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="shot shot--cinema" role="img" aria-label="EC Cinema booking platform preview — screenshot coming soon">
+              <div class="shot-bar" aria-hidden="true">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                <span class="shot-url">ec-cinema · booking-platform</span>
+              </div>
+              <div class="shot-body" aria-hidden="true">
+                <div class="shot-wire"><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="shot-label">
+                  <span class="shot-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect width="18" height="18" x="3" y="3" rx="2"/>
+                      <path d="M7 3v18M17 3v18M3 12h18M3 7h4M3 17h4M17 7h4M17 17h4"/>
+                    </svg>
+                  </span>
+                  <span class="shot-text">
+                    <span class="shot-name">EC Cinema</span>
+                    <span class="shot-note">Screenshot coming soon</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-meta">HNC final project · Grade A · Public repo</p>
+              <h3><a href="projects/ec-cinema.html">EC Cinema</a></h3>
+              <p>End-to-end cinema booking platform with Stripe payments, automated QR tickets, OMDb film data and an admin dashboard.</p>
+              <ul class="tags" aria-label="Tech stack">
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>JavaScript</li>
+                <li>Stripe API</li>
+              </ul>
+              <div class="project-footer">
+                <p class="code-status is-public">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="m18 16 4-4-4-4"/>
+                    <path d="m6 8-4 4 4 4"/>
+                    <path d="m14.5 4-5 16"/>
+                  </svg>
+                  <a href="https://github.com/pliniomartos/cinema-hnc" rel="noopener noreferrer" target="_blank">Public on GitHub</a>
+                </p>
+                <a class="btn btn-primary btn-sm" href="projects/ec-cinema.html">View project</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="shot shot--bus" role="img" aria-label="Bus Network App desktop interface preview — screenshot coming soon">
+              <div class="shot-bar" aria-hidden="true">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                <span class="shot-url">bus-network · desktop-gui</span>
+              </div>
+              <div class="shot-body" aria-hidden="true">
+                <div class="shot-wire shot-wire--desktop"><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="shot-label">
+                  <span class="shot-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M8 6v6M16 6v6M2 12h19.6"/>
+                      <path d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3"/>
+                      <circle cx="7" cy="18" r="2"/>
+                      <path d="M9 18h5"/>
+                      <circle cx="16" cy="18" r="2"/>
+                    </svg>
+                  </span>
+                  <span class="shot-text">
+                    <span class="shot-name">Bus Network App</span>
+                    <span class="shot-note">Screenshot coming soon</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-meta">University project · BEng</p>
+              <h3><a href="projects/bus-network.html">Bus Network App</a></h3>
+              <p>Desktop route-planner application with a graphical user interface, real-time route calculation and schedule display.</p>
+              <ul class="tags" aria-label="Tech stack">
+                <li>C#</li>
+                <li>GUI</li>
+                <li>Database</li>
+              </ul>
+              <div class="project-footer">
+                <p class="code-status">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                  </svg>
+                  <a href="mailto:pliniohernandezmartos@gmail.com?subject=Code%20request%3A%20Bus%20Network%20App">Code available on request</a>
+                </p>
+                <a class="btn btn-primary btn-sm" href="projects/bus-network.html">View project</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="shot shot--ml" role="img" aria-label="AI and ML modules Python workflow preview — screenshot coming soon">
+              <div class="shot-bar" aria-hidden="true">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                <span class="shot-url">ai-ml-modules · python</span>
+              </div>
+              <div class="shot-body" aria-hidden="true">
+                <div class="shot-wire shot-wire--notebook"><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="shot-label">
+                  <span class="shot-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M3 3v18h18"/>
+                      <path d="m19 9-5 5-4-4-3 3"/>
+                    </svg>
+                  </span>
+                  <span class="shot-text">
+                    <span class="shot-name">AI / ML modules</span>
+                    <span class="shot-note">Screenshot coming soon</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-meta">University coursework · BEng</p>
+              <h3><a href="projects/ai-ml-modules.html">AI / ML modules</a></h3>
+              <p>Machine learning fundamentals covering supervised learning, model training and data preprocessing pipelines in Python.</p>
+              <ul class="tags" aria-label="Tech stack">
+                <li>Python</li>
+                <li>Supervised learning</li>
+                <li>Data preprocessing</li>
+              </ul>
+              <div class="project-footer">
+                <p class="code-status">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                  </svg>
+                  <a href="mailto:pliniohernandezmartos@gmail.com?subject=Code%20request%3A%20AI%2FML%20modules">Code available on request</a>
+                </p>
+                <a class="btn btn-primary btn-sm" href="projects/ai-ml-modules.html">View project</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="education" aria-labelledby="education-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Academic progression</p>
+          <h2 id="education-heading">Education</h2>
+          <p>
+            Structured progression through Scottish computing qualifications into Honours degree study,
+            alongside a UK NARIC-verified Bachelor’s degree.
+          </p>
+        </div>
+
+        <ol class="edu-list">
+          <li class="edu-item is-current">
+            <p class="edu-dates">Sep 2025 – Jun 2028 (expected)</p>
+            <div class="edu-body">
+              <h3>BEng (Hons) Software Engineering</h3>
+              <p class="edu-inst">Edinburgh Napier University</p>
+              <ul class="badges">
+                <li class="badge badge-accent">Currently in Year 3</li>
+                <li class="badge">Direct entry to Year 2</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="edu-item">
+            <p class="edu-dates">2024 – 2026</p>
+            <div class="edu-body">
+              <h3>HND Software Development</h3>
+              <p class="edu-inst">Edinburgh College</p>
+              <ul class="badges">
+                <li class="badge badge-success">Grade A</li>
+                <li class="badge">Graded Unit: Sustain Energy</li>
+              </ul>
+              <ul class="edu-notes">
+                <li>Final semester completed alongside Year&nbsp;2 of the BEng.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="edu-item">
+            <p class="edu-dates">2023 – 2024</p>
+            <div class="edu-body">
+              <h3>HNC Software Development</h3>
+              <p class="edu-inst">Edinburgh College</p>
+              <ul class="badges">
+                <li class="badge badge-success">Grade A</li>
+                <li class="badge">Final project: EC Cinema</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="edu-item">
+            <p class="edu-dates">2022 – 2023</p>
+            <div class="edu-body">
+              <h3>NPA Software Development</h3>
+              <p class="edu-inst">Edinburgh College</p>
+              <ul class="badges">
+                <li class="badge">SCQF Level 6</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="edu-item">
+            <p class="edu-dates">2006 – 2013</p>
+            <div class="edu-body">
+              <h3>Bachelor’s in Communication, Advertising &amp; Marketing</h3>
+              <p class="edu-inst">Brazil</p>
+              <ul class="badges">
+                <li class="badge">UK NARIC verified — equivalent to a UK Bachelor’s degree</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Capabilities</p>
+          <h2 id="skills-heading">Technical skills</h2>
+          <p>Languages, web technologies, databases, frameworks and training from study and placement practice.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="m18 16 4-4-4-4M6 8l-4 4 4 4M14.5 4l-5 16"/>
+              </svg>
+              Languages
+            </h3>
+            <ul>
+              <li>Java</li>
+              <li>PHP</li>
+              <li>Python</li>
+              <li>C#</li>
+              <li>C</li>
+              <li>JavaScript</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect width="20" height="14" x="2" y="3" rx="2"/>
+                <path d="M8 21h8M12 17v4"/>
+              </svg>
+              Web &amp; front end
+            </h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>SCSS</li>
+              <li>JavaScript</li>
+              <li>Bootstrap</li>
+              <li>jQuery</li>
+              <li>Ajax</li>
+              <li>Responsive design</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                <path d="M3 5v14a9 3 0 0 0 18 0V5"/>
+                <path d="M3 12a9 3 0 0 0 18 0"/>
+              </svg>
+              Databases
+            </h3>
+            <ul>
+              <li>MySQL</li>
+              <li>MariaDB</li>
+              <li>Schema design</li>
+              <li>Queries</li>
+              <li>API integration</li>
+              <li>Caching strategies</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76Z"/>
+              </svg>
+              Frameworks &amp; tools
+            </h3>
+            <ul>
+              <li>Laravel</li>
+              <li>React.js</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Composer</li>
+              <li>Linux command line</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+              </svg>
+              Cloud &amp; other
+            </h3>
+            <ul>
+              <li>AWS foundations (AWS re/Start)</li>
+              <li>AI / machine learning fundamentals</li>
+            </ul>
+          </div>
+
+          <div class="skill-group is-list">
+            <h3>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+              Work-related training
+            </h3>
+            <ul>
+              <li>AWS re/Start Programme (2022)</li>
+              <li>5-Day Coding Challenge — Code Institute (2021)</li>
+              <li>Digital Marketing Certificate — Google (2020)</li>
+              <li>GDPR training</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Career history</p>
+          <h2 id="experience-heading">Experience</h2>
+          <p>Relevant software and teaching roles first, followed by earlier hospitality, sales and operations experience.</p>
+        </div>
+
+        <h3 class="timeline-heading">Software &amp; teaching</h3>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <p class="timeline-dates">Jan – Mar 2025</p>
+            <p class="timeline-role">Software Development Placement</p>
+            <p class="timeline-org">TechNest Project, Edinburgh College, Edinburgh</p>
+            <ul>
+              <li>Member of a five-person agile team delivering a commercial inventory management system for an Edinburgh College client</li>
+              <li>Learned Laravel and React.js during the project and delivered production code to real client deadlines and requirements</li>
+            </ul>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-dates">2024 (3 months)</p>
+            <p class="timeline-role">Teaching Assistant — Web Development</p>
+            <p class="timeline-org">Edinburgh College, Edinburgh</p>
+            <ul>
+              <li>Supported web development sessions (HTML, CSS, JavaScript) for 15 Brazilian exchange students, teaching bilingually in English and Portuguese</li>
+              <li>Supervised four groups building quiz applications; debugged student code, carried out code reviews and adapted explanations to different learning styles</li>
+            </ul>
+          </li>
+        </ol>
+
+        <h3 class="timeline-heading is-spaced">Other work experience</h3>
+        <ol class="timeline is-other">
+          <li class="timeline-item">
+            <p class="timeline-dates">Jul 2022 – Present</p>
+            <p class="timeline-role">Front of House Team Member (weekends)</p>
+            <p class="timeline-org">Wagamama, Edinburgh</p>
+            <ul>
+              <li>Weekend role maintained alongside full-time study, demonstrating time management and commitment</li>
+            </ul>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-dates">2021 – 2022</p>
+            <p class="timeline-role">Front of House Manager</p>
+            <p class="timeline-org">Wagamama</p>
+            <ul>
+              <li>Led the front-of-house team in a busy restaurant, supporting operational efficiency and customer service</li>
+            </ul>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-dates">2016 – 2021</p>
+            <p class="timeline-role">Assistant Manager</p>
+            <p class="timeline-org">Greene King, London &amp; Poole</p>
+            <ul>
+              <li>Supported team leadership and day-to-day operations, including inventory management</li>
+            </ul>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-dates">2019 – 2020</p>
+            <p class="timeline-role">Warehouse Operative</p>
+            <p class="timeline-org">BMW Mini Plant, Oxford</p>
+            <ul>
+              <li>Contributed to efficient day-to-day operations in a high-pressure manufacturing environment</li>
+            </ul>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-dates">2006 – 2016</p>
+            <p class="timeline-role">Medical Sales Representative</p>
+            <p class="timeline-org">Eurofarma, Brazil</p>
+            <ul>
+              <li>Built and maintained client relationships in a field-based sales role; worked to sales targets</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Get in touch</p>
+          <h2 id="contact-heading">Contact</h2>
+          <p>Happy to talk about junior developer, graduate, placement or IT support roles.</p>
+        </div>
+
+        <div class="contact-panel">
+          <div class="contact-intro">
+            <h3>Let’s talk about your team</h3>
+            <p>
+              If you are hiring in Edinburgh, the Lothians or remotely across the UK — or would like to
+              review source code for any private coursework project — send an email or connect on LinkedIn.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="mailto:pliniohernandezmartos@gmail.com">Email me</a>
+              <a class="btn btn-secondary" href="assets/Plinio_Hernandez_Martos_CV.pdf" download>Download CV</a>
+            </div>
+          </div>
+
+          <div class="contact-grid">
+            <a class="contact-card" href="mailto:pliniohernandezmartos@gmail.com">
+              <span class="icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="16" x="2" y="4" rx="2"/>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                </svg>
+              </span>
+              <span class="text">
+                <span class="label">Email</span>
+                <span class="value">pliniohernandezmartos@<wbr>gmail.com</span>
+              </span>
+            </a>
+
+            <a class="contact-card" href="https://github.com/pliniomartos" rel="noopener noreferrer" target="_blank">
+              <span class="icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                  <path d="M9 18c-4.51 2-5-2-7-2"/>
+                </svg>
+              </span>
+              <span class="text">
+                <span class="label">GitHub</span>
+                <span class="value">github.com/<wbr>pliniomartos</span>
+              </span>
+            </a>
+
+            <a class="contact-card" href="https://linkedin.com/in/pliniomartos" rel="noopener noreferrer" target="_blank">
+              <span class="icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                  <rect width="4" height="12" x="2" y="9"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+              </span>
+              <span class="text">
+                <span class="label">LinkedIn</span>
+                <span class="value">linkedin.com/in/<wbr>pliniomartos</span>
+              </span>
+            </a>
+
+            <a class="contact-card" href="assets/Plinio_Hernandez_Martos_CV.pdf" download>
+              <span class="icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                  <path d="M14 2v6h6M12 18v-6M9 15l3 3 3-3"/>
+                </svg>
+              </span>
+              <span class="text">
+                <span class="label">Curriculum Vitae</span>
+                <span class="value">Download PDF</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <p class="availability">
+          <strong>Availability:</strong> Monday to Friday; university timetable is flexible around working hours.
+          Open to full-time, part-time, placement or internship roles — on-site in Edinburgh/Lothians, hybrid or remote.
+          Willing to relocate within the UK.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Plinio Hernandez Martos · Edinburgh</p>
+      <div class="footer-links">
+        <a href="assets/Plinio_Hernandez_Martos_CV.pdf" download>Download CV</a>
+        <a href="mailto:pliniohernandezmartos@gmail.com">Email</a>
+        <a href="https://github.com/pliniomartos" rel="noopener noreferrer" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/pliniomartos" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
