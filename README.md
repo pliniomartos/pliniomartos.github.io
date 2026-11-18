@@ -15,7 +15,7 @@ Static HTML, CSS and vanilla JavaScript — no build step, no bundler, no extern
 - `js/main.js` — Accessible mobile navigation, optional light/dark theme toggle and footer year
 - `assets/Plinio_Hernandez_Martos_CV.pdf` — Downloadable CV
 - `assets/favicon.svg` — Site icon
-- `assets/screenshots/` — Project screenshots (EC Cinema is live; others still use placeholders)
+- `assets/screenshots/` — Project screenshots (EC Cinema and Sustain Energy are live; others still use placeholders)
 - `CNAME` — Custom domain (`pliniomartos.dev`)
 - `robots.txt` & `sitemap.xml` — Search engine directives for `https://pliniomartos.dev`
 
@@ -30,10 +30,9 @@ python3 -m http.server 8080
 
 ## Replacing screenshot placeholders
 
-EC Cinema already uses real screenshots from the public `cinema-hnc` repository (`screenshots/` in that repo). The remaining project cards still use styled `.shot` window placeholders. When you are ready to add the others:
+EC Cinema uses real screenshots from the public `cinema-hnc` repository. Sustain Energy uses screenshots from the HND Graded Unit assessment folder (hero plus a small gallery). The remaining project cards still use styled `.shot` window placeholders. When you are ready to add the others:
 
-1. Save screenshots (suggested ~1600×1000 or 1600×900 PNG/WebP) under `assets/screenshots/` using these exact filenames:
-   - `assets/screenshots/sustain-energy.png` (or `.webp`)
+1. Save screenshots (suggested ~1600px wide PNG/WebP) under `assets/screenshots/` using these exact filenames:
    - `assets/screenshots/bus-network.png` (or `.webp`)
    - `assets/screenshots/ai-ml-modules.png` (or `.webp`)
 2. On `index.html`, replace the `<div class="shot ...">...</div>` inside each `.project-card` with:
